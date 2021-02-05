@@ -3,6 +3,10 @@ trigger:
 
 variables:
   buildConfiguration: 'Release'
+  stateStorageAccount: 'tfsa9110'
+  stateContainerName: 'tfstate'
+  stateKey: "personal.tfstate"
+  stateSubscription: "4bc01ce4-6905-4c6b-80c6-ec1a6ca98fc6"
 
 stages:
 - stage: 'Build'
